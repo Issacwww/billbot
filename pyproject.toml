@@ -1,0 +1,24 @@
+[project]
+name = "billbot"
+version = "0.1.0"
+description = "Simple utility bill parser and renter-share calculator"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pypdf>=6.8.0",
+  "pdfplumber>=0.11.7",
+  "pypdfium2>=4.30.0",
+  "pillow>=11.3.0",
+  "google-api-python-client>=2.0.0",
+  "google-auth-httplib2>=0.2.0",
+  "google-auth-oauthlib>=1.0.0",
+  "splitwise>=3.0.0",
+]
+
+[project.scripts]
+billbot = "billbot:main"
+billbot-auto = "auto:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

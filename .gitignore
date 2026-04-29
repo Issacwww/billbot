@@ -1,0 +1,24 @@
+# Credentials & secrets
+.env
+credentials.json
+token.json
+
+# Personal data
+tenants.json
+*.billbot.json
+*.pdf
+
+# Build / IDE
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+uv.lock
+.claude/
+
+# macOS
+.DS_Store
+
+# Runtime data
+downloads/
+*.db

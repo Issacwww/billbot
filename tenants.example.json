@@ -1,0 +1,18 @@
+{
+  "tenants": [
+    {
+      "name": "Alice",
+      "share_percent": 33.33,
+      "lease_start": "2026-02-01",
+      "is_active": true,
+      "email": "alice@example.com"
+    },
+    {
+      "name": "Bob",
+      "share_percent": 33,
+      "lease_end": "2025-08-31",
+      "is_active": false,
+      "email": "bob@example.com"
+    }
+  ]
+}
