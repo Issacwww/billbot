@@ -7,12 +7,12 @@
 
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/ssuchao/Code/VibeCoding/Harness/projects/billbot/.venv/bin/python3</string>
-        <string>/Users/ssuchao/Code/VibeCoding/Harness/projects/billbot/auto.py</string>
+        <string>/path/to/billbot/.venv/bin/python3</string>
+        <string>/path/to/billbot/auto.py</string>
     </array>
 
     <key>WorkingDirectory</key>
-    <string>/Users/ssuchao/Code/VibeCoding/Harness/projects/billbot</string>
+    <string>/path/to/billbot</string>
 
     <!-- Run once when the agent is loaded (for example after login/boot) -->
     <key>RunAtLoad</key>
@@ -40,17 +40,17 @@
     </array>
 
     <key>StandardOutPath</key>
-    <string>/Users/ssuchao/.billbot/logs/billbot.stdout.log</string>
+    <string>/Users/YOU/.billbot/logs/billbot.stdout.log</string>
 
     <key>StandardErrorPath</key>
-    <string>/Users/ssuchao/.billbot/logs/billbot.stderr.log</string>
+    <string>/Users/YOU/.billbot/logs/billbot.stderr.log</string>
 
     <key>EnvironmentVariables</key>
     <dict>
         <key>PATH</key>
         <string>/usr/local/bin:/usr/bin:/bin</string>
         <key>PYTHONPATH</key>
-        <string>/Users/ssuchao/Code/VibeCoding/Harness/projects/billbot</string>
+        <string>/path/to/billbot</string>
     </dict>
 </dict>
 </plist>
